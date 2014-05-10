@@ -8,6 +8,8 @@ Plugin 'gmarik/Vundle.vim' "Required
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'pangloss/vim-javascript'
+Plugin 'tpope/vim-surround'
+Plugin 'mattn/emmet-vim'
 
 " ==============================================================================
 call vundle#end() "Required
