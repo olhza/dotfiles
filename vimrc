@@ -7,6 +7,7 @@ Plugin 'gmarik/Vundle.vim' "Required
 " ==============================================================================
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'pangloss/vim-javascript'
 
 " ==============================================================================
 call vundle#end() "Required
