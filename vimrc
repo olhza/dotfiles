@@ -3,7 +3,6 @@ filetype off "Required
 
 set rtp+=~/.vim/bundle/Vundle.vim "Required
 call vundle#begin() "Required
-Plugin 'gmarik/Vundle.vim' "Required
 " ==============================================================================
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
