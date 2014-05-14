@@ -21,13 +21,15 @@ else
 	colors zenburn
 endif
 
-
+filetype indent on
 set t_Co=256 " Enable 256-color mode
 syntax enable " Enable syntax highlightning
 set number " Show line numbers
 set laststatus=2 " Last window always has a status line
-filetype indent on " Enable identing
-set nohlsearch
 set ignorecase " Search are case-insensitive
 set ruler " Always show info bar
 set autoindent 
+
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
+
