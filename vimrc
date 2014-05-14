@@ -9,6 +9,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/nerdtree'
 
 " ==============================================================================
 call vundle#end() "Required
