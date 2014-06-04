@@ -22,6 +22,7 @@ else
 endif
 
 filetype indent on
+filetype plugin indent on
 set t_Co=256 " Enable 256-color mode
 syntax enable " Enable syntax highlightning
 set number " Show line numbers
