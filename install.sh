@@ -12,3 +12,5 @@ for file in $files; do
 	ln -s $dir/$file ~/.$file
 done
 
+git clone https://github.com/VundleVim/Vundle.vim.git $dir/vim/bundle/Vundle.vim
+
