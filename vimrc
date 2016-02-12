@@ -28,5 +28,7 @@ set ruler " Always show info bar
 set autoindent 
 
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-
+" For more information about the issue regarding backspace behaviour
+" http://stackoverflow.com/questions/3534028/mac-terminal-vim-will-only-use-backspace-when-at-the-end-of-a-line
+set backspace=indent,eol,start
 
