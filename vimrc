@@ -14,12 +14,8 @@ Plugin 'scrooloose/nerdtree'
 " ==============================================================================
 call vundle#end() "Required
 
-
-if has('gui_running')
-	colors solarized
-else
-	colors zenburn
-endif
+set background=dark
+colors solarized
 
 filetype indent on
 filetype plugin indent on
